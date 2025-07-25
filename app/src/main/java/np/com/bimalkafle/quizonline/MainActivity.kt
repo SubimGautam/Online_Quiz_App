@@ -4,9 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.ktx.Firebase
 import np.com.bimalkafle.quizonline.databinding.ActivityMainBinding
+import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -23,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+
 
     private fun setupRecyclerView(){
         binding.progressBar.visibility = View.GONE
@@ -50,17 +51,3 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

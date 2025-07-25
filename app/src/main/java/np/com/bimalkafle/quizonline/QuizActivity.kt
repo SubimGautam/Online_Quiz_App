@@ -11,7 +11,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import np.com.bimalkafle.quizonline.databinding.ActivityQuizBinding
 import np.com.bimalkafle.quizonline.databinding.ScoreDialogBinding
-import kotlin.math.min
 
 class QuizActivity : AppCompatActivity(),View.OnClickListener {
 
@@ -136,21 +135,6 @@ class QuizActivity : AppCompatActivity(),View.OnClickListener {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
